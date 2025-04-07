@@ -1,0 +1,170 @@
+:root {
+    --primary-color: #5f036d;      /* biru Bootstrap */
+    --secondary-color: #f4f0fa;    /* abu-abu */
+    --success-color: #9768d1;      /* hijau */
+    --danger-color: #dc3545;       /* merah */
+    --warning-color: #ffc107;      /* kuning */
+    --info-color: #0dcaf0;         /* biru muda */
+    --light-color: aliceblue;
+    --dark-color: #212529;
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 15px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  color: var(--secondary-color);
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-toggler {
+  color: var(--secondary-color);
+  border: none;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+  margin: 5px;
+}
+
+.nav-link:hover {
+  color: rgb(54, 9, 54);
+  text-decoration: underline 2px rgb(54, 9, 54);
+}
+
+.nav-link :active {
+  color: var(--secondary-color);
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.logo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.logo img {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+
+.content {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+  margin: 40px 20px;
+  width: 600px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid var(--dark-color);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  border: 2px solid var(--dark-color);
+  border-radius: 10px;
+  min-width: 150px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 2px solid var(--dark-color);
+  border-radius: 10px;
+  min-width: 150px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  border: none;
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.output {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+@media screen and (max-width: 600px) {
+  input[type="number"] {
+    width: 100px;
+  }
+}
+
+footer {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 25px;
+  background-color: var(--primary-color);
+}
+
+footer p {
+  color: var(--secondary-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  margin: 5px;
+}
+
+footer .icons a {
+  color: var(--secondary-color);
+
+}
+
+.icons a i {
+  margin: 5px;
+}
+
+.icons a i:hover {
+  color: rgb(54, 9, 54);
+}
